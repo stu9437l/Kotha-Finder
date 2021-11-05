@@ -460,4 +460,31 @@ transform: rotate(90deg);
 .margin_res{
   margin: 0px !important;
 }
+.errorpage{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.eror_to_home_btn{
+  position: relative;
+}
+.eror_to_home_btn::after{
+  content: "\f0a4";
+  font-family: "Font Awesome 5 Free";
+  position: absolute; 
+  left: -25px;
+  top: 6px;
+  z-index: 4;
+  animation: error_home_btn 1s linear infinite;
+}
+@keyframes error_home_btn {
+  0%{
+    transform: translateX(0px);
 
+  }
+  100%{
+    transform: translateX(10px);
+
+  }
+}
