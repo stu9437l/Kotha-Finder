@@ -1,0 +1,82 @@
+@media(max-width:991px){
+    .search_width{
+        width: 100%;
+      }
+      .tab_img-size{
+        height: 19vh;
+        overflow: auto;
+      }
+      .content_img {
+        width: 100%;
+        height:40vh;
+      }
+      .margin_of_tab_image_btn{
+        margin-right: 0rem;
+        padding: 0 10px;
+      }
+      .register_form {
+        position: absolute;
+        top: -13%;
+        right: 0%;
+        width: 85%;
+      }
+      
+      .margin_top_log_form{
+        margin-top: 150px;
+      }
+      .margin_top_register_form{
+        margin-top: 170px;
+      }
+      .sidebar_register_res{
+          display: none;
+      }
+      .padding_log_register_form{
+        padding: 9rem 0;
+      }
+      .padding_log_form{
+        padding: 10.4rem 0;
+      }
+      .navbtnform{
+        display: block;
+      }
+      .navbtnform{
+          margin-top: 30px;
+          padding: 10px 0;
+      }
+      .shadow_res_for_setting{
+        box-shadow: 1px 1px 5px 0.2px black !important;
+        padding: 3px;
+      }
+      .margin_res{
+        margin: 0px !important;
+      }
+      .user_profile{
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+        border-radius: 50%;
+        border:3px solid white;
+      }
+      .margin_end_res{
+         text-align: center;
+
+      }
+      .padding_left_yes{
+          padding-right: 29px;
+      }
+      .padding_left_no{
+          padding-right: 27px;
+      }
+      .margin_of_addRoom_post{
+          margin: 10px 0px 50px 0 !important;
+      }
+      .padding_of_status_addroom{
+       padding-left: 5px !important;
+       padding-right: 1px !important;
+    }
+    .changepassword-image{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+}

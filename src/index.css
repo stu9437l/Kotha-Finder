@@ -11,3 +11,453 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.room_add_form{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ border-radius: 5px;
+}
+.backArrow {
+  position: relative;
+  margin-left: 100px !important;
+}
+.backArrow::after{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width:63%;
+  background-color: black;
+  right:12%;
+  top: 50%;
+}
+.backArrow::before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width:9%;
+  background-color: black;
+  left:-9%;
+  top: 50%;
+}
+.uploadMainPhoto{
+  height:150px;
+  overflow: hidden;
+  width: 200px;
+}
+.uploadMainPhoto img{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.uploadSubPhoto{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 80px;
+}
+.uploadSubPhoto img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.uploadMainPhoto img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.main_photo{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.main_search{
+  border-radius: 50%;
+  color: black;
+  outline: none !important;
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ right:0px;
+ top: 4px;
+ font-size: 30px;
+transition: linear 0.3s all;
+}
+.main_search:hover{
+  transform: rotate(45deg);
+
+}
+.carousel-item img{
+  height: 200px !important;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 5px !important;
+}
+.carousel-control-prev,
+.carousel-control-next{
+  width: 15%!important;
+  opacity: 1!important;
+}
+.card_price{
+  position: relative;
+}
+.price{
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  z-index: 2;
+  padding: 2px 10px !important;
+  border-radius: 20px;
+  color: white !important;
+}
+.fa-arrow-circle-left,
+.fa-arrow-circle-right{
+  font-size: 26px;
+  border-radius: 50%;
+  color: black;
+   background-color: white;
+}
+.fa-arrow-circle-left:hover,
+.fa-arrow-circle-right:hover{
+  background-color: black;
+  color: white;
+}
+.card-body i{
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding:2px 4px;
+}
+.big_button .btn:hover{
+  background-color: rgb(85, 85, 85);
+  color: white;
+}
+.btn-close:hover{
+transform: rotate(90deg);
+}
+.btn-close{
+  border-radius: 50% !important;
+  transition: all 0.3s linear;
+}
+.tab_btn{
+  width: 65px;
+  height:50px;
+  border-radius: 5px ;
+  overflow: hidden;
+}
+
+.tab_btn img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.3s ease-in-out;
+}
+.tab_btn img:hover{
+  transform: scale(1.2) !important;
+}
+.nav-pills .nav-link.active{
+  background-color: transparent !important;
+}
+.content_img {
+  width: 100%;
+  height:54vh;
+}
+.content_img img{
+  width: 100%;
+  height: 100%;
+}
+.tab_img-size{
+  height: 54vh;
+  overflow: auto;
+}
+.margin_of_tab_image_btn{
+  margin-right: 0.75rem;
+}
+.room_datail_ifno{
+  border-radius: 30px;
+}
+.room_datail_ifno:hover,
+.room_datail_ifno:hover i,
+.info_active{
+  color: white !important;
+  background-color: rgb(85, 85, 85) !important;
+  cursor: pointer;
+}
+.info_active:hover{
+  background-color: white !important;
+  color: black !important;
+}
+.shadow-lg{
+  box-shadow: 1px 1px 5px 0.2px black !important;
+}
+.room_datail_ifno i{
+  color: black !important;
+  background-color: transparent !important;
+}
+.room_datail_info_modal i{
+  color: black !important;
+  background-color: transparent !important;
+}
+.padding_info{
+  padding: 0px 3px !important;
+}
+.banner_img{
+  animation: banner_animation 6s linear infinite;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://www.thespruce.com/thmb/lVWZdjV-ol4rc_80sPVMf9o2yos=/1178x663/smart/filters:no_upscale()/YDrq5F-5b10345bfa6bcc0036abe9bd.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@keyframes banner_animation {
+  0%{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://www.thespruce.com/thmb/lVWZdjV-ol4rc_80sPVMf9o2yos=/1178x663/smart/filters:no_upscale()/YDrq5F-5b10345bfa6bcc0036abe9bd.jpg");
+  }
+  50%{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://miro.medium.com/max/7902/1*tGQrKS4H0yikXGbNwNyLMQ.jpeg");
+  }
+  100%{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://www.architectureartdesigns.com/wp-content/uploads/2016/01/1-39-1280x720.jpg");
+
+  }
+}
+.navbar{
+  background-color: white;
+}
+.nav-item a{
+  color: black !important;
+  font-weight: bold !important;
+  margin-left: 1rem;
+  text-decoration: none;
+  padding: 0 10px;
+
+}
+.nav-item a:hover{
+  box-shadow: 1px 1px 5px 0.2px black !important;
+
+}
+.active_class{
+  box-shadow: 1px 1px 5px 0.2px black !important;
+}
+
+.social_icon_title{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: black !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+.social_icon_title:hover{
+  transform: rotate(30deg);
+}
+.social_icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: black !important;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all linear 0.3s;
+}
+.social_icon:hover{
+  transform: rotate(-30deg);
+}
+.register_login_div{
+  position: relative;
+}
+.register_form {
+  position: absolute;
+  top: -13%;
+  right: 5%;
+  width: 55%;
+  z-index: 2;
+}
+.login_form{
+  position: absolute;
+  top: -13%;
+  right: 5%;
+  width: 55%;
+  z-index: 2;
+}
+.register_icon{
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s linear;
+  font-weight: bold;
+  font-size: 20px;
+}
+.register_icon:hover{
+   cursor: pointer;
+   transform: rotate(15deg);
+}
+.login_form_icon{
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+}
+.login_form_icon img{
+ width: 100%;
+ height: 100%;
+}
+.user_profile{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  border:3px solid white;
+}
+.user_profile img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile_settng{
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  border:3px solid white;
+}
+.profile_settng img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile_setting_option .nav-link{
+  color: black !important;
+  font-weight: bold !important;
+  text-decoration: none;
+}
+.profile_setting_option .nav-link:hover{
+  box-shadow: 1px 1px 5px 0.2px black !important;
+  border-radius: 0px !important;
+}
+.profile_setting_option .active{
+  box-shadow: 1px 1px 5px 0.2px black !important;
+  border-radius: 0px !important;
+}
+.log_out_btn:hover{
+  box-shadow: 1px 1px 5px 0.2px black !important;
+}
+.add_mainroom_img:hover{
+  box-shadow: 1px 1px 5px 0.2px black !important;
+}
+.add_room_form_label {
+  font-size: 12px !important;
+  font-weight: bold;
+}
+.add_room_form .form-check {
+  display: block;
+  min-height: 0 !important;
+  padding-left: 0.5rem;
+  margin-bottom: 0 !important;
+}
+.edit_profile_photo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+  overflow: hidden;
+}
+.edit_profile_photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.changepassword-image{
+  width: 200px;
+  height: 130px;
+  overflow: hidden;
+}
+.changepassword-image img{
+  width: 100%;
+  height: 100%;
+}
+.scroll_icon_parent{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  z-index: 2;
+  cursor: pointer;
+}
+.scroll_icon_parent .fa-angle-double-up{
+  animation: scroll_animation 1s ease-in-out infinite;
+}
+@keyframes scroll_animation {
+  0%{
+    transform: translateY(2px);
+  }
+  100%{
+    transform: translateY(-2px);
+  }
+}
+.navbar-toggler{
+  color: black !important;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s linear;
+  font-size: 30px;
+}
+.navbar-toggler:hover{
+  transform: rotate(180deg);
+}
+.search_width{
+  width: 50%;
+}
+.margin_top_res{
+  margin-top: 120px;
+}
+.margin_top_log_form{
+  margin-top: 120px;
+}
+.margin_top_register_form{
+  margin-top: 135px;
+}
+
+.padding_log_register_form{
+  padding: 7rem 0;
+}
+.padding_log_form{
+  padding: 7rem 0;
+}
+.navbtnform{
+  display: none;
+}
+.margin_res{
+  margin: 0px !important;
+}
+
