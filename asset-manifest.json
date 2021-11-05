@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Kotha-Finder/static/css/main.cdf70a13.chunk.css",
+    "main.js": "/Kotha-Finder/static/js/main.daa07f01.chunk.js",
+    "main.js.map": "/Kotha-Finder/static/js/main.daa07f01.chunk.js.map",
+    "runtime-main.js": "/Kotha-Finder/static/js/runtime-main.c2d91ba2.js",
+    "runtime-main.js.map": "/Kotha-Finder/static/js/runtime-main.c2d91ba2.js.map",
+    "static/js/2.2eb8bfa8.chunk.js": "/Kotha-Finder/static/js/2.2eb8bfa8.chunk.js",
+    "static/js/2.2eb8bfa8.chunk.js.map": "/Kotha-Finder/static/js/2.2eb8bfa8.chunk.js.map",
+    "index.html": "/Kotha-Finder/index.html",
+    "static/css/main.cdf70a13.chunk.css.map": "/Kotha-Finder/static/css/main.cdf70a13.chunk.css.map",
+    "static/js/2.2eb8bfa8.chunk.js.LICENSE.txt": "/Kotha-Finder/static/js/2.2eb8bfa8.chunk.js.LICENSE.txt",
+    "static/media/upload_main_room.96fad0b7.jpg": "/Kotha-Finder/static/media/upload_main_room.96fad0b7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2d91ba2.js",
+    "static/js/2.2eb8bfa8.chunk.js",
+    "static/css/main.cdf70a13.chunk.css",
+    "static/js/main.daa07f01.chunk.js"
+  ]
+}
